@@ -137,6 +137,29 @@ body{
 /* home section end */
 
 
+.skills_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0px 0px 38px;
+    gap: 10px;
+  }
+  
+  .skills_boxes img {
+    height: 70px;
+    width: auto;
+    padding: 5px;
+    background-color: #0D0D0D;
+    border: 1px solid white;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .skills_boxes img:hover {
+    box-shadow: 1px 2px 7px #bab3b3;
+  }
+  
+
 /* project section start */
 #project-section{
     background-color: rgb(28, 27, 27);
@@ -168,6 +191,15 @@ body{
 
 /* meadia query */
 @media screen and (Max-width:768px) {
+    .skills-section{
+        padding: 10px;
+    }
+    .skills_boxes{
+        padding: 0;
+    }
+    .skills_boxes img{
+height: 50px;
+    }
 
  .sidebar{
  left: -280px;
@@ -232,7 +264,7 @@ body{
 
 /* about section start */
 .para{
-    font-size: 22px;
+    font-size: 14px;
 }
 /* about section start */
 
